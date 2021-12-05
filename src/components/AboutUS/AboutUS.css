@@ -1,0 +1,19 @@
+.about-text {
+    margin-left: 30%;
+    color: white;
+    font-size: 72px;
+}
+
+.about-card {
+    color: white;
+    border-radius: 5px;
+}
+
+.about-card:hover {
+    background-image: linear-gradient(to right, #F57543, #F54B9B);
+    width: 100%;
+}
+
+.icon {
+    font-size: 20px;
+}

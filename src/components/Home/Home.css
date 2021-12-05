@@ -1,0 +1,33 @@
+.hero-text {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.main-text {
+    color: #ff0000;
+}
+
+
+.btn {
+    border: 2px solid red;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #F57543, #F54B9B);
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.main-img {
+    background-image: url(../../images/144.svg);
+    width: 100%;
+    animation: rotated 10s linear infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rotated;
+}

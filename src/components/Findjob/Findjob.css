@@ -1,0 +1,17 @@
+.btn {
+    margin: 12px;
+    border: 1px solid red;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #F57543, #F54B9B);
+}
+
+.available-jobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card:hover .btn {
+    background-image: linear-gradient(to right, #F54B9B, #F57543);
+    color: rgb(230, 225, 225);
+}
