@@ -7,9 +7,9 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar className='navigation' collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand style={{ fontSize: "25px" }}>JOB FINDER</Navbar.Brand>
+                    <Navbar.Brand style={{ fontSize: "25px" }}>JOB FINDERS.</Navbar.Brand>
                     <Nav className="ml-auto">
                         <Link as={HashLink} className='link' to="/home#home">Home</Link>
                         <Link as={HashLink} className='link' to="/home#about">About Us</Link>
