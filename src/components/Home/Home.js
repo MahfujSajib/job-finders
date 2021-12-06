@@ -1,13 +1,18 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Homepage from '../Homepage/Homepage';
 import './Home.css';
 import image from '../../images/screen_05.png'
 import image2 from '../../images/screen_06.png'
+import AboutUS from '../AboutUS/AboutUS';
+import Feedback from '../FeedBack/Feedback';
+import FindJobs from '../FindJobs/FindJobs';
+import Footer from '../Footer/Footer';
+import Pricing from '../Pricing/Pricing';
+import Company from '../Company/Company';
 
 const Home = () => {
     return (
-        <div id='#home'>
+        <div id='home'>
             <Container>
                 <Row className='mt-5'>
                     <Col>
@@ -26,7 +31,12 @@ const Home = () => {
                     </div>
                 </div>
             </Container>
-            <Homepage></Homepage>
+            <AboutUS></AboutUS>
+            <FindJobs></FindJobs>
+            <Company></Company>
+            <Feedback></Feedback>
+            <Pricing></Pricing>
+            <Footer></Footer>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import './AboutUS.css'
 
 const AboutUS = () => {
     return (
-        <div id='#about'>
+        <div id='about'>
             <h2 className='mt-5 about-text'><span style={{ color: "red" }}>Why</span> Job Finders?</h2>
             <Container>
                 <Row>

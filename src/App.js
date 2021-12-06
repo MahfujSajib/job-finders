@@ -11,6 +11,7 @@ import Header from './components/Header/Header';
 import Feedback from './components/FeedBack/Feedback';
 import Pricing from './components/Pricing/Pricing';
 import Footer from './components/Footer/Footer';
+import Company from './components/Company/Company';
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/findjob" element={<FindJobs />} />
+        <Route path="/company" element={<Company />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/footer" element={<Footer />} />

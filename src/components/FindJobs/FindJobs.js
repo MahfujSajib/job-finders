@@ -11,7 +11,7 @@ const FindJobs = () => {
             .then(data => setFindJobs(data))
     }, [])
     return (
-        <>
+        <div id='findjob'>
             <Container className='findjob'>
                 <Row>
                     <Col>
@@ -32,20 +32,24 @@ const FindJobs = () => {
                 <h3 style={{ color: "white" }} className='mt-5'>Popular Categories</h3>
                 <hr style={{ color: "white", width: "30%" }} />
             </Container>
-            <Container className="mt-5">
-                <Row>
-                    <Col className="row g-5">
-
+            <Container>
+                <Row class="row">
+                    <Col className='jobs'>
                         {
                             findJobs.map(findJob => <Findjob findJob={findJob}></Findjob>)
                         }
-
                     </Col>
                 </Row>
             </Container>
 
-        </>
+        </div>
     );
 };
 
 export default FindJobs;
+
+
+
+
+
+

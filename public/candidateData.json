@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "John",
+        "skill": "javascript,ReactJS",
+        "location": "houston,Tx",
+        "hourly": "$25/hour"
+    },
+    {
+        "id": 1,
+        "name": "Smith",
+        "skill": "PHP,Laravel",
+        "location": "UAE",
+        "hourly": "$50/hour"
+    },
+    {
+        "id": 2,
+        "name": "Robert",
+        "skill": "Wordpress,Theme Development",
+        "location": "UK",
+        "hourly": "$35/hour"
+    },
+    {
+        "id": 3,
+        "name": "Kohli",
+        "skill": "Python,Django",
+        "location": "India",
+        "hourly": "$40/hour"
+    },
+    {
+        "id": 4,
+        "name": "Sajib",
+        "skill": "UI/UX Design",
+        "location": "Bangladesh",
+        "hourly": "$30/hour"
+    },
+    {
+        "id": 5,
+        "name": "Jully",
+        "skill": "Digital Marketing",
+        "location": "Denmark",
+        "hourly": "$25/hour"
+    }
+]

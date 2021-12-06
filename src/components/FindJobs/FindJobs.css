@@ -7,3 +7,9 @@
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
 }
+
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

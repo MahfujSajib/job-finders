@@ -1,17 +1,16 @@
 .btn {
     margin: 12px;
-    border: 1px solid red;
+    border: 1px solid #F57543;
     color: #ffffff;
     background-image: linear-gradient(to right, #F57543, #F54B9B);
 }
 
-.available-jobs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn:hover {
+    background-image: linear-gradient(to right, #F54B9B, #F57543);
 }
 
 .about-card:hover .btn {
     background-image: linear-gradient(to right, #F54B9B, #F57543);
     color: rgb(230, 225, 225);
+    border: 1px solid #f575439d;
 }

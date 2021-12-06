@@ -16,9 +16,9 @@ const Footer = () => {
                         <h3 className='socialmedia'>Find Us On Social Media</h3>
                         <div>
                             <a href="https://www.linkedin.com/in/mahfuj-khan-sajib/" target="_blank">
-                                <i class="fab fa-linkedin icon" ></i>
+                                <i class="fab fa-linkedin icon1" ></i>
                             </a>
-                            <a href="/" target="_blank"><i class="fab fa-facebook icon"></i></a>
+                            <a href="/" target="_blank"><i class="fab fa-facebook icon2"></i></a>
                         </div>
                     </div>
                 </div>

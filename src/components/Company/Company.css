@@ -1,0 +1,15 @@
+.hire-img img {
+    margin-right: auto;
+    width: 50%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.candidate {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

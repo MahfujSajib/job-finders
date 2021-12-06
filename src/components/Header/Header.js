@@ -10,13 +10,17 @@ const Header = () => {
             <Navbar className='navigation' collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand style={{ fontSize: "25px" }}>JOB FINDERS.</Navbar.Brand>
-                    <Nav className="ml-auto">
-                        <Link as={HashLink} className='link' to="/home#home">Home</Link>
-                        <Link as={HashLink} className='link' to="/home#about">About Us</Link>
-                        <Link as={HashLink} className='link' to="/home#findjob">Find Job</Link>
-                        <Link as={HashLink} className='link' to="/home#feedback">Feedback</Link>
-                        <Link as={HashLink} className='link' to="/home#pricing">Pricing</Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav style={{ marginLeft: "auto" }}>
+                            <Nav.Link as={HashLink} className='link' to="/home#home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="/home#about">About Us</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="/home#findjob">Find Job</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="/home#company">For Company</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="/home#feedback">Feedback</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="/home#pricing">Pricing</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
@@ -24,3 +28,9 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
+

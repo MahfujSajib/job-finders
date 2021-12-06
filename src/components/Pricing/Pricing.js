@@ -4,7 +4,7 @@ import './Pricing.css'
 
 const Pricing = () => {
     return (
-        <>
+        <div id='pricing'>
             <div className='plan'>
                 <h2>Our Plan and Pricing</h2>
             </div>
@@ -66,7 +66,7 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

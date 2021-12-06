@@ -6,9 +6,7 @@ const Findjob = (props) => {
     const { jobName, available } = props.findJob
     return (
 
-
         <>
-
             <Card style={{ width: '18rem', backgroundColor: "#181628", border: "1px solid white" }} className='about-card available-jobs'>
                 <Card.Body>
                     <Card.Title>{jobName}</Card.Title>
@@ -20,10 +18,7 @@ const Findjob = (props) => {
                     <button className='btn'>see all</button>
                 </div>
             </Card>
-
-
         </>
-
 
     );
 };
