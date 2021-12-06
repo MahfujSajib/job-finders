@@ -1,0 +1,28 @@
+.cards {
+    color: white;
+    background-color: #291F38;
+}
+
+.plan h2 {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    margin-top: 50px;
+}
+
+.signupbtn {
+    margin-left: 35%;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #291F38;
+}
+
+.signupbtn:hover {
+    background-image: linear-gradient(to right, #F57543, #F54B9B);
+    border: 1px solid #F57543;
+}

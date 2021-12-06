@@ -32,14 +32,14 @@ const FindJobs = () => {
                 <h3 style={{ color: "white" }} className='mt-5'>Popular Categories</h3>
                 <hr style={{ color: "white", width: "30%" }} />
             </Container>
-            <Container>
+            <Container className="mt-5">
                 <Row>
-                    <Col>
-                        <Card style={{ width: '18rem', backgroundColor: "#181628", border: "1px solid white" }} className='about-card available-jobs'>
-                            {
-                                findJobs.map(findJob => <Findjob findJob={findJob}></Findjob>)
-                            }
-                        </Card>
+                    <Col className="row g-5">
+
+                        {
+                            findJobs.map(findJob => <Findjob findJob={findJob}></Findjob>)
+                        }
+
                     </Col>
                 </Row>
             </Container>

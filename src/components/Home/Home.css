@@ -10,8 +10,12 @@
 
 .btn {
     border: 2px solid red;
-    color: #ffffff;
     background-image: linear-gradient(to right, #F57543, #F54B9B);
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .btn:hover {
@@ -19,15 +23,39 @@
 }
 
 .main-img {
-    background-image: url(../../images/144.svg);
-    width: 100%;
-    animation: rotated 10s linear infinite;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: rotated;
+    background-image: url(../../images/144.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    animation: floating 3s ease-in-out infinite;
+
+}
+
+.img2 {
+    width: 40%;
+    position: relative;
+    animation: floating 3s ease-in-out infinite;
+}
+
+
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
 }
