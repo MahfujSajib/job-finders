@@ -26,7 +26,7 @@ const Feedback = () => {
                         <img src={member2} className='images' alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Jack</h5>
-                            <p>I found my first ever job from job Finders.</p>
+                            <p>I got my first ever job from job Finders.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
