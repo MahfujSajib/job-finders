@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div id='home'>
             <Container>
-                <Row className='mt-5'>
+                <Row className='mt-5 home-media'>
                     <Col>
                         <h1 className='hero-text'>Get Your Next Job With <span className='main-text'>Job Finders</span>.</h1>
                     </Col>

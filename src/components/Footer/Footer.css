@@ -36,3 +36,18 @@
 .icon2:hover {
     color: #1877F2;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+}

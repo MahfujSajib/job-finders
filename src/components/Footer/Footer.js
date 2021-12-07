@@ -10,6 +10,7 @@ const Footer = () => {
                     <div>
                         <h3 className='brandname'>JOB FINDERS.</h3>
                     </div>
+                    <h4 style={{ color: "white", margin: "10px" }}>All &copy; Rights Reserved</h4>
                 </div>
                 <div class="col-lg-4 col-sm-12">
                     <div>
