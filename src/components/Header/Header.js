@@ -13,12 +13,12 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ marginLeft: "auto" }}>
-                            <Nav.Link as={HashLink} className='link' to="/home#home">Home</Nav.Link>
-                            <Nav.Link as={HashLink} className='link' to="/home#about">About Us</Nav.Link>
-                            <Nav.Link as={HashLink} className='link' to="/home#findjob">Find Job</Nav.Link>
-                            <Nav.Link as={HashLink} className='link' to="/home#company">For Company</Nav.Link>
-                            <Nav.Link as={HashLink} className='link' to="/home#feedback">Feedback</Nav.Link>
-                            <Nav.Link as={HashLink} className='link' to="/home#pricing">Pricing</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#about">About Us</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#findjob">Find Job</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#company">For Company</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#feedback">Feedback</Nav.Link>
+                            <Nav.Link as={HashLink} className='link' to="#pricing">Pricing</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
